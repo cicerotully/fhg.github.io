@@ -1,0 +1,114 @@
+/*import Alcubierre font */
+@font-face {
+    font-family: 'Alcubierre';
+    src: url("/home/alt/Ephraim/Alt.code/FHG/Site_files/Fonts/Alcubierre.otf") format("opentype");
+    font-style: normal;
+}
+body {
+  background: url(../Media/bg17.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Arial', 'Serif';
+}
+
+input, textarea, select, button {
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/* Navigation bar - same on every page */
+.nav {
+  width: 100%;
+  background-color: /*#936B60*/#1D2731;
+  color: #ffffff;
+  font-family: Alcubierre;
+  font-size: 28px;
+  font-weight: 900;
+  font-variant-caps: small-caps;
+  list-style: none;
+  text-align: center;
+  padding: 15px 0 12px 0;
+}
+.active-page {
+  background-color: #000;
+}
+.nav > li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav > li > a:hover {
+  color: /*#c1c1c1*/ #C8F3F3;
+}
+
+/* Calendar class, imported from zoho */
+.calendar {
+  margin-left: 50px;
+}
+
+/* top class - body text */
+.top {
+  font-family: Alcubierre;
+  color: /*#800020*/#f4f4f4;
+  margin-left: 40px;
+  margin-right: 20px;
+  text-align: center;
+}
+.top h1 {
+  margin-left: 20px;
+  font-size: 35px;
+}
+.top h2 {
+  color: #D9B310;
+  text-shadow: 5px 2px 2px #1D2731;
+  font-size: 27px;
+}
+.top p {
+  font-size: 25px;
+}
+.top > ul > li > a {
+  color: #328EE1;
+  font-size: 19px;
+}
+.top > ul > li > a:hover {
+  color: #A5D0D0;
+}
+
+.group_photo > img {
+  width: 450px;
+  height: 280px;
+  margin-left: 35px;
+  border: 3px solid #328CC1;
+}
+
+/* Contact form */
+
+#fhg_contact {
+  margin-left: 50px;
+  width: 75%;
+  /*background-color: #C8F3F3;*/
+}
+
+#n {
+  width: 50%;
+  box-shadow: 2px 2px 1px 1px #777
+}
+
+#e {
+  width: 50%;
+  box-shadow: 2px 2px 1px 1px #777
+}
+
+#m {
+  width: inherit;
+  height: 15em;
+  box-shadow: 2px 2px 1px 1px #777
+}

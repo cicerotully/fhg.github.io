@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>FHG | contact us</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="performances.html">Performances</a></li>
+    <!--<li><a href="booking.html">Booking</a></li>-->
+    <li><a href="contact.html" class="active-page">Contact | Booking</a></li><!--<li><a href="contact.html">Contact</a></li>-->
+  </ul>
+  <div class="top">
+    <h1>Contact Form</h1>
+    <p>We always feel blessed when we are given the opportunity to share our gifts and minister through our music.
+      <br/>Feel free to use the form below to get in touch if you would like us to come and perform at your church or event, or just to say hi!
+      <br/>
+    </p>
+  </div>
+  <form id="fhg_contact" onsubmit="submitForm(); retun false;">
+    <p><input id="n" placeholder="Name" required></p>
+    <p><input id="e" placeholder="Email Address" type="email" required></p>
+    <textarea id="m" placeholder="write your message here" required></textarea>
+    <p><input id="fhgbtn" type="submit" value="Send Message"> <span id="status"></span></p>
+  </form>
+</body>
+</html>
